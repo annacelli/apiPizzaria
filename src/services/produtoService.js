@@ -1,6 +1,5 @@
 //src/services/produtoService.js
 import db from '../db/db.js';
-import bcrypt from 'bcrypt';
  
 export const findAll = async (valorMinimo, valorMaximo, nomeProduto, idProduto, tipo) => {
   let sql = 'SELECT * FROM produto';
